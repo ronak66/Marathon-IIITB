@@ -137,7 +137,7 @@ ul.nosyely_list {
   display: inline-block;
   padding: 25px;
   min-width: 120px;
-  background-color: #F44336;
+  background-color:rgb(86, 86, 204);
   color: #ffffff;
   font-size: 48px;
   font-weight: 600;
@@ -1631,12 +1631,11 @@ img {
 2. HEADER
 -------------------------------------------------------- */
 header {
+  background:black;
   min-height: 50px;
   padding: 0;
   margin: 0;
-  margin-top: 20px;
-  -webkit-transition: all ease-in-out 0.4s;
-  transition: all ease-in-out 0.4s;
+
 }
 header .menu {
   position: relative;

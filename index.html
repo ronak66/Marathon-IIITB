@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    html {
+    scroll-behavior: smooth;
+    }
+    </style>
     <!-- ========== Meta Tags ========== -->
     <meta charset="UTF-8">
     <meta name="description" content="Evento -Event Html Template">
@@ -33,12 +38,12 @@
 </div>
 
 <!--header start here -->
-<header class="header navbar fixed-top navbar-expand-md">
+<header class="header navbar fixed-top navbar-expand-md sticky_header">
     <div class="container">
         <a class="navbar-brand logo" href="#">
             <img src="assets/img/logo.png" alt="Evento"/>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapse" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="lnr lnr-text-align-right"></span>
         </button>
         <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
@@ -46,18 +51,22 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link " href="#">Speakers</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link " href="#event">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Events</a>
+                    <a class="nav-link " href="#route">Route</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">News</a>
+                    <a class="nav-link " href="#registeration">Registeration</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">Contact</a>
+                    <a class="nav-link " href="#partners">Partners</a>
                 </li>
+                
                 <li class="search_btn">
                     <a  href="#">
                        <i class="ion-ios-search"></i>
@@ -72,7 +81,7 @@
 <!--cover section slider -->
 <section id="home" class="home-cover">
     <div class="cover_slider owl-carousel owl-theme">
-        <div class="cover_item" style="background: url('assets/2.jpeg');">
+        <div class="cover_item" style="background: url('assets/1.png');">
              <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -92,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/2.jpeg');">
+        <div class="cover_item" style="background: url('assets/1.png');">
             <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -112,7 +121,7 @@
                 </div>
             </div>
         </div>
-        <div class="cover_item" style="background: url('assets/2.jpeg');">
+        <div class="cover_item" style="background: url('assets/1.png');">
             <div class="slider_content">
                 <div class="slider-content-inner">
                     <div class="container">
@@ -133,18 +142,12 @@
             </div>
         </div>
     </div>
-    <div class="cover_nav">
-        <ul class="cover_dots">
-            <li class="active" data="0"><span>1</span></li>
-            <li  data="1"><span>2</span></li>
-            <li  data="2"><span>3</span></li>
-        </ul>
-    </div>
+   
 </section>
 <!--cover section slider end -->
 
 <!--event info -->
-<section class="pt100 pb100">
+<section class="pt100 pb100" >
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-6 col-md-3  ">
@@ -155,7 +158,7 @@
                             DATE
                         </h5>
                         <p>
-                            12-14 february 2018
+                            13 April 2019
                         </p>
                     </div>
                 </div>
@@ -169,36 +172,22 @@
                             location
                         </h5>
                         <p>
-                            Los Angeles, CA.
+                            IIIT Bangalore, Electronic City, Bangalore.
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-6 col-md-3  ">
-                <div class="icon_box_two">
-                    <i class="ion-ios-person-outline"></i>
-                    <div class="content">
-                        <h5 class="box_title">
-                            speakers
-                        </h5>
-                        <p>
-                            Natalie James
-                            + guests
-                        </p>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-6 col-md-3  ">
                 <div class="icon_box_two">
                     <i class="ion-ios-pricetag-outline"></i>
                     <div class="content">
                         <h5 class="box_title">
-                            tikets
+                            Registration
                         </h5>
                         <p>
-                            $65 early bird
+                            ₹500 Ticket Cost
                         </p>
                     </div>
                 </div>
@@ -208,18 +197,9 @@
 </section>
 <!--event info end -->
 
-<section class="bg-img pt70 pb70" style="background-image: url('assets/2.jpg');">
-    <div class="container">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d124442.74426570247!2d77.49612094216394!3d12.918275575853313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sInternational+Institute+of+Information+Technology+Bangalore%2C+26%2FC%2C+Hosur+Rd%2C+Electronics+City+Phase+1%2C+Electronic+City%2C+Bengaluru%2C+Karnataka+560100!3m2!1d12.8447512!2d77.6632317!4m5!1s0x3bae6ca27b4822c3%3A0xcab39445d711d4f0!2sNICE+Ring+Rd%2C+Bengaluru%2C+Karnataka!3m2!1d12.9564173!2d77.47144159999999!4m5!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sIIITB%2C+Hosur+Road%2C+Electronics+City+Phase+1%2C+Bengaluru%2C+Karnataka!3m2!1d12.8447512!2d77.6632317!5e0!3m2!1sen!2sin!4v1553092549421"
-            width="1100" height="600" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
-    </div>
-</section>
 
-<br>
 <!--event countdown -->
-<section class="bg-img pt70 pb70" style="background-image: url('assets/1.png');">
+<section class="bg-img pt70 pb70" style="background-image: url('assets/2.jpeg');">
     <div class="overlay_dark"></div>
     <div class="container">
         <div class="row justify-content-center">
@@ -234,7 +214,7 @@
 
 
 <!--about the event -->
-<section class="pt100 pb100">
+<section class="pt100 pb100" id="event">
     <div class="container">
         <div class="section_title">
             <h3 class="title">
@@ -314,8 +294,27 @@
 <!--about the event end -->
 
 
+<!-- Map -->
+
+<section class="bg-img pt70 pb70" style="background-image: url('assets/2.jpg');" id="route">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                Route
+            </h3>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d124442.74426570247!2d77.49612094216394!3d12.918275575853313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sInternational+Institute+of+Information+Technology+Bangalore%2C+26%2FC%2C+Hosur+Rd%2C+Electronics+City+Phase+1%2C+Electronic+City%2C+Bengaluru%2C+Karnataka+560100!3m2!1d12.8447512!2d77.6632317!4m5!1s0x3bae6ca27b4822c3%3A0xcab39445d711d4f0!2sNICE+Ring+Rd%2C+Bengaluru%2C+Karnataka!3m2!1d12.9564173!2d77.47144159999999!4m5!1s0x3bae135aeb7f340f%3A0x3ad86af40d2ac611!2sIIITB%2C+Hosur+Road%2C+Electronics+City+Phase+1%2C+Bengaluru%2C+Karnataka!3m2!1d12.8447512!2d77.6632317!5e0!3m2!1sen!2sin!4v1553092549421"
+            width="1100" height="600" frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+    </div>
+</section>
+<!-- Map End -->
+
+<br><br>
+
 <!--speaker section-->
-<section class="pb100">
+<!-- <section class="pb100">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
@@ -414,11 +413,11 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--speaker section end -->
 
 <!--Price section-->
-<section class="pb100">
+<section class="pb100" id="registeration">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
@@ -538,7 +537,7 @@
 <!--price section end -->
 
 <!--event calender-->
-<section class="pb100">
+<!-- <section class="pb100">
     <div class="container">
         <div class="table-responsive">
             <table class="event_calender table">
@@ -625,39 +624,38 @@
             </table>
         </div>
     </div>
-</section>
+</section> -->
 <!--event calender end -->
 
 <!--brands section -->
-<section class="bg-gray pt100 pb100">
+<section class="bg-gray pt50 pb50" id="partners">
     <div class="container">
         <div class="section_title mb50">
             <h3 class="title">
                 our partners
             </h3>
         </div>
-        <div class="brand_carousel owl-carousel">
+        <div class="row justify-content-center">
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b1.png" alt="brand">
-            </div>
+                <b> IIIT Bangalore</b>
+                <img src="assets/img/brands/iiitb.png" alt="brand" >
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b2.png" alt="brand">
-            </div>
-
+                <b> ELCITA</b>
+                <img src="assets/img/brands/b10.jpeg" alt="brand">
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <div class="brand_item text-center">
-                <img src="assets/img/brands/b3.png" alt="brand">
+                <b> Zense</b>
+                <img src="assets/img/brands/zense.png" alt="brand">
             </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/brands/b4.png" alt="brand">
-            </div>
-            <div class="brand_item text-center">
-                <img src="assets/img/brands/b5.png" alt="brand">
-            </div>
+            
         </div>
     </div>
 </section>
 <!--brands section end-->
-
+<br>
 <!--get tickets section -->
 <section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
     <div class="container">
@@ -679,7 +677,7 @@
 <!--get tickets section end-->
 
 <!--footer start -->
-<footer>
+<!-- <footer>
     <div class="container">
         <div class="row justify-content-center">
 
@@ -776,7 +774,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 <div class="copyright_footer">
     <div class="container">
         <div class="row justify-content-center">
@@ -807,6 +805,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         </div>
     </div>
 </div>
+
 <!--footer end -->
 
 <!-- jquery -->

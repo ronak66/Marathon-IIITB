@@ -166,13 +166,13 @@ ul.nosyely_list {
 }
 
 .brand_item {
-  opacity: 0.3;
+  /* opacity: 0.3; */
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 .brand_item img {
   display: block;
-  max-width: 130px;
+  max-width: 170px;
   margin: 0 auto;
 }
 .brand_item:hover {
@@ -1735,7 +1735,7 @@ header.sticky_header {
 }
 @media (max-width: 767px) {
   header {
-    background-color: #18181c;
+    background-color: rgb(246, 246, 246);
     margin: 0;
     -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
